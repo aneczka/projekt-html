@@ -1,0 +1,620 @@
+/*strona główna*/
+
+body {background: url('images/background.jpg');
+   margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+div#tlo {background-color:#feffb8;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        border-bottom-style: outset;
+        margin-bottom: 30px ;
+        border-radius: 10px / 10px;
+
+         }
+
+a#walidator{
+    color:white;
+}
+
+        /*menu*/
+
+ ul#menu { 
+text-align: left; 
+overflow: hidden; 
+font-family: georgia; 
+
+} 
+ 
+ul#menu li { 
+border: 2px solid #660000; 
+border-radius: 10px / 10px;
+list-style-type: none; 
+float: left; 
+background-color: #c13333;
+margin-left: 3px; 
+} 
+ 
+ul#menu li:hover { 
+border: 1px solid #660000; 
+border-radius: 10px / 10px;
+list-style-type: none; 
+float: left; 
+background: black; 
+margin-left: 3px; 
+} 
+ 
+ul#menu li a { 
+display : block; 
+padding : 6px; 
+text-decoration : none; 
+color:white;
+} 
+ 
+ul#menu li li a{ 
+width: 160px; 
+} 
+ 
+ul#menu li li a:hover { 
+background: white; 
+color: black;
+} 
+ 
+ul#menu li ul { 
+overflow: hidden; 
+display: none; 
+} 
+ 
+ul#menu li:hover ul { 
+position: absolute; 
+z-index: 2;
+background: #effffe; 
+padding: 0; 
+display: block; 
+width: 160px; 
+} 
+
+
+
+
+
+
+
+h1 {text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 6px;
+    font-size: 29px;
+    font-family: "georgia", serif;
+    color: white;
+    font-style: italic;
+    background:url('images/background.jpg');
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+img#sylwetka { float: right;
+              width: 65%;
+              border-style:solid;
+              border-width:5px;
+              position: relative;
+              margin-right: 20px;
+              margin-bottom: 10px; 
+              margin-top: 10px;
+            }
+
+
+
+div#wstep { text-align: left;
+    letter-spacing: 1px;
+    font-family: "georgia", serif;
+    font-size: 20px;
+    color: black;
+    text-indent:50px;
+    background-color: #ffe2c6;
+    border-style: dotted;
+    border-width: 4px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+
+ }
+ div#cytat{
+    font-family: "georgia", serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    text-indent:50;
+    text-decoration: inherit;
+    letter-spacing: 2px;
+    border-style: dotted;
+    border-width: 4px;
+    padding-top: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+ }
+ span.autor{
+    color:red;
+    letter-spacing:-1px;
+ }
+
+
+/*makijazdzien*/
+
+
+img.oczy { width: 250px;
+                height: 300px;
+                border-style: solid;
+                border-color: black;
+                position: relative;
+                left:30px
+    }
+
+div#instruktaz {font-size: 17px;
+                font-family: "georgia";
+                border-style: none;
+                text-align: justify;
+                margin-left: 50px;
+                margin-right: 100px;
+                margin-bottom: 30px;
+
+}
+div.kolory {
+    color:#151572;
+    width: 300px;
+    float: right;
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+}
+
+h2{ text-align: left;
+    font-size: 80px;
+    color: #180838;
+    padding-left: 100px;
+    letter-spacing: -8px;
+    text-decoration: underline;
+}
+
+
+h4 { text-align: left;
+    font-size: 25px;
+    padding-left: 50px;
+    color: #A02238;
+}
+
+}
+h4.podtytul{
+    font-size: 40px;
+    color: black;
+}
+a#do_gory{
+    position: fixed;
+    bottom: 20px;
+    right: 300px;
+
+    }
+img#gora{
+    height: 40px;
+}
+
+button{
+    color: #151572;
+
+}
+
+/*makijaż wieczorowy*/
+
+
+img.smoky1{
+        float: right;
+        margin-right: 50px;
+        border: solid;
+        position: relative;
+        left: 50px;
+}
+img.smoky2{
+    float: right;
+    width: 250px;
+    border: solid;
+    position: relative;
+    left: 50px;
+}
+img#wieczorowy{
+    float:left;
+    width: 250px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+div#smoky-wykonanie{
+    border-style: dotted;
+    border-color: red;
+    margin-right: 250px;
+
+}
+
+
+div#spis_tresci{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: none;
+    width: 150px; 
+    border: 1px solid #fd90b9; 
+    border-radius: 10px / 10px;
+    height: 30px; 
+    overflow: hidden;
+    color: white; 
+    background-color: #000600;
+} 
+    
+#spis_tresci:hover { 
+    width: 150px; 
+    height: auto;
+    } 
+    
+    ul.spis1{ 
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 2px;
+    list-style-type: none;}
+    
+    li.1{
+        padding-bottom: 5px;
+    }
+
+    li.spis { 
+    list-style-type: none; 
+    width: 150px;} 
+    
+    li.spis a { 
+    text-decoration: none; 
+    padding: 5px;
+    display: block; 
+    width: 150px; 
+    color: #fbafaf;
+    } 
+    
+    li.spis a:hover { 
+    text-decoration: none;
+    padding: 5px; 
+    color: black; 
+    width: 150px; 
+    background-color: #F0F0F0 } 
+    
+    
+ /*porady*/
+    
+    
+h3 {text-align: left;
+    font-family: "georgia", serif;
+    margin-bottom: 20px;}
+
+div#porady {font-size: 15px;
+            font-family: "georgia";
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+            }
+
+div#lenistwo { text-indent: 50px;
+            padding-left: 10px;
+            padding-right: 10px;}
+img.makijaz { float: right;
+                border-style: solid;
+                border-left-color: #9f003a;
+                 }
+img.makijaz1 {float: right;
+            border-style: solid;
+            border-left-color: #9f003a;
+                        }
+
+table, tr, td, th {
+    border: 2px solid;
+    border-color: #423235;
+    border-spacing:5px;
+    text-align: center;
+    height:50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+thead{
+    background-color: #ecce84;
+}
+tbody{
+    background-color:#effffe;
+}
+
+/*Kosmetyczka*/
+
+
+img#pomadka{
+    position: relative;
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+img#cienie{
+    position: relative;
+    right: -30px;
+    float: right;
+
+}
+img#kredki{
+    position: relative;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/*Grzechy*/
+div#grzechy{
+    font-family: "georgia", serif;
+    font-style: italic, bold;
+    font-size: 25px;
+    text-align: center;
+    text-indent:50;
+    color: #004d00;
+    border:ridge 5px;
+    border-color: #004d00;
+    padding:20px;
+    position: relative;
+    background: url('images/tlo2.jpg');
+    }
+    img#roz{
+        position: relative;
+        float: right;
+        border: solid;
+        margin: 10px;
+    }
+    img#maska{
+        position: relative;
+        border: solid;
+        float: right;
+        margin:20px;
+        width: 450px;
+    }
+
+    img#kredka{
+        width: 70%;
+        border:solid;
+        float: left;
+        margin-right: 40px;
+    }
+
+    /*Okazjonalny*/
+    img#okazjonalny{
+        width: 300px;
+        height: 400px;
+        border: solid;
+    
+        }
+        /*galeria*/
+
+
+
+        #images-box {
+            /* Całowita szerokość okienka ze zdjęciami */
+            width: 850px;
+            height: 150px;
+            margin: 0px auto;
+            position: relative;
+            margin-bottom: 20px;
+        }
+         
+        .image-lightbox img {
+            /* Dziedziczenie szerokości i wysokości od głównego elementu */
+            width: inherit;
+            height: inherit;
+            z-index: 3000;
+        }
+         
+        .holder {
+            /* wysokość i szerokość można zmienić */
+            width: 115px;
+            height: 115px;
+            float: left;
+            margin: 0 20px 0 0;
+        }
+         
+        .image-lightbox {
+            /* Dziedziczenie szerokości i wysokości z .holder */
+            width: inherit;
+            height: inherit;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            background: #fff;
+            border-radius: 5px;
+            position: absolute;
+            top: 0;
+            font-family: Arial, sans-serif;
+            /* Przejścia */
+            -webkit-transition: all ease-in 0.5s;
+            -moz-transition: all ease-in 0.5s;
+            -ms-transition: all ease-in 0.5s;
+            -o-transition: all ease-in 0.5s;
+        }
+
+
+        .image-lightbox span {
+            display: none;
+        }
+         
+        .image-lightbox .expand {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+         
+        .image-lightbox .close {
+            position: absolute;
+            width: 20px; height: 20px;
+            right: 20px; top: 20px;
+        }
+         
+        .image-lightbox .close a {
+            height: auto; width: auto;
+            padding: 5px 10px;
+            color: #fff;
+            text-decoration: none;
+            background: #22272c;
+            box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
+            border-radius: 5px;
+            font-weight: bold;
+            float: right;
+        }
+         
+        .image-lightbox .close a:hover {
+            box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 20px rgba(255,255,255,0.4);
+        }
+        div#image-1 { left: 0; }
+        div#image-2 { left: 115px; }
+        div#image-3 { left: 230px; }
+        div#image-4 { left: 345px;  }
+        div#image-5 { left: 460px; }        
+        div#image-6 { left: 575px; }
+        div#image-11 { left: 0; }
+        div#image-12 { left: 115px; }
+        div#image-13 { left: 230px; }
+        div#image-14 { left: 345px;  }
+        div#image-15 { left: 460px; }        
+        div#image-16 { left: 575px; }
+        div#image-21 { left: 0; }
+        div#image-22 { left: 115px; }
+        div#image-23 { left: 230px; }
+        div#image-24 { left: 345px;  }
+        div#image-25 { left: 460px; }        
+        div#image-26 { left: 575px; }
+        div#image-31 { left: 0; }
+        div#image-32 { left: 115px; }
+        div#image-33 { left: 230px; }
+        div#image-34 { left: 345px;  }
+        div#image-35 { left: 460px; }        
+        div#image-36 { left: 575px; }
+        div#image-41 { left: 0; }
+        div#image-42 { left: 115px; }
+        div#image-43 { left: 230px; }
+        div#image-44 { left: 345px;  }
+        div#image-45 { left: 460px; }        
+        div#image-46 { left: 575px; }
+        div[id^=image]:target {
+            width: 400px;
+            height: 400px;
+            z-index: 5000;
+            top: 10px;
+            left: 200px;
+        }
+        div[id^=image]:target .close {
+            display: block;
+        }
+         
+        div[id^=image]:target .expand {
+            display: none;
+        }
+
+
+
+
+    /*mineralny*/
+    img.jogging{
+        width: 300px;
+        float: right;
+        margin: 20px;
+    }
+
+    span.alergik{
+        color:red;
+    }
+    /*permanentny*/
+    div#permanentny{
+        font-size: 25px;
+        color: #611F82;
+        text-align: left;
+        text-indent: 50px;
+        font-style: italic bold;
+    }
+    span.prawda{
+        border: solid;
+        border-color:#82ff82 ;
+        background-color: #effffe;
+    }
+
+    span.falsz{
+        border: solid;
+        border-color:#ff645e ;
+        background-color: #ffbab8;
+    }
+
+    /*domowe zabiegi*/
+
+    span.zabiegi{
+        background: url('images/tlo.jpg');
+        color:white;
+    }
+
+    /* media print - style do drukowania */
+    
+    @media print {
+        body{
+            font-size: 14pt;
+        }
+        div#instruktaz {
+            font-size: 10pt;
+        }
+        img {
+            display: none;
+        }
+        *{
+            background-image: none;
+        }
+    }
+
+    /*formularz zgłoszeniowy*/
+
+    div#formularz {
+        margin-left: 150px;
+        margin-right: 200px;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    
+
+    div#makijaz {
+    font-family: "georgia";
+    text-indent: 50px;
+    background-color: #ffffff;
+    border-style: double;
+    border-color: black;
+    padding-left: 10px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+    }
+
+    input {
+        font-size: 15px;
+        box-shadow: red;
+    }

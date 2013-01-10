@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <title>formularz zgłoszeniowy</title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"> 
+  <link rel=StyleSheet href="strona.css"  type="text/css">
+
+
+</head>
+<body>
+  <div id="tlo">
+  
+    <ul id="menu"> 
+    <li><a href="glowna.html">strona główna</a></li>
+    <li><a href="zabiegi.html">domowe zabiegi</a></li>
+
+
+    <li> <a href="#">Makijaż</a>
+      <ul>
+      <li><a href="makijazdzien.html">makijaż na dzień</a></li>
+      <li><a href="makijaz_wieczorowy.html">makijaż wieczorowy</a></li>
+      <li><a href="okazjonalny.html">makijaż okazjonalny</a></li>
+      <li><a href="permanentny.html">makijaż permanentny</a></li>
+      <li><a href="mineralny.html">makijaż mineralny</a></li>
+    </ul>
+  </li>
+    
+    <li> <a href="#">Inne</a>
+      <ul>
+      <li><a href="kosmetyczka.html">Twoja kosmetyczka</a></li>
+      <li><a href="porady.html">makijaż-porady</a></li>
+      <li><a href="grzechy.html">10 grzechów głównych</a></li>
+
+      </ul>
+    </li>
+  
+    <li><a href="formularz.html">formularz zgłoszeniowy</a></li>
+</ul>
+
+  
+  <div id="makijaz">
+    Poszukujemy modelek do prezentacji makijażu tworzonego przez nasze wizażystki. Jeżeli chciałabyś zaistnieć w świecie modelingu, wypełnij poniższy formularz zgłoszeniowy.
+  </div>
+
+<div id="formularz"> 
+  <form action="http://wierzba.wzks.uj.edu.pl/~dorosz/HTML/forms/test_form.php" method="post">
+  <fieldset>
+  <legend>Formularz:</legend>
+  <p><label for="imie">imię</label>
+  <input type="text" name="imie" id="imie"> </p>
+  
+  <p><label for="nazwisko">nazwisko</label>
+  <input type="text" name="nazwisko" id="nazwisko"> </p>
+  
+  <p><label for="e-mail">e-mail</label>
+  <input type="text" name="e-mail" id="e-mail"> </p>
+  
+  <p><label for="male">mężczyzna</label>
+  <input type="radio" name="sex" id="male" value="male">
+  
+  <label for="female">kobieta</label>
+  <input type="radio" name="sex" id="female" value="female"></p>
+  
+ <p> <label for="haslo">hasło</label>
+  <input type="password" name="haslo" id="haslo" maxlength="25"></p>
+  <p><label for="rehaslo">powtórz hasło</label>
+  <input type="password" name="rehaslo" id="rehaslo" maxlength="25"></p>
+  
+  Kolor oczu
+  <select name="oczy">
+    <option value="niebieskie">niebieskie</option>
+    <option value="zielone">zielone</option>
+    <option value="brązowe">brązowe</option>
+    <option value="inne">inne</option>
+  </select> 
+  <script type='text/javascript'>
+    var first_time = true;
+    function clearArea(textarea)
+    {
+      if(!first_time)
+        return;
+      textarea.value = "";
+      first_time = false;
+    }
+  </script>
+  <textarea onfocus="clearArea(this);" rows="4" cols="50" name="o_mnie">Napisz o sobie </textarea>
+  
+  
+  <input type="checkbox" name="regulamin" value="zaakceptowany"> Zapoznałam się z regulaminem rekrutacji
+  <input type="reset" id="reset" value="wyczyść dane">  
+  <input type="submit" id="wyslij" value="wyślij">
+  </fieldset>
+</form>
+</div>
+
+
+</div>
+</body>
+</html>
