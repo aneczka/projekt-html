@@ -584,6 +584,9 @@ div#grzechy{
         *{
             background-image: none;
         }
+        #menu{
+            display: none;
+        }
     }
 
     /*formularz zgłoszeniowy*/
